@@ -14,7 +14,10 @@ myTextImport = open("memrise_words.txt", "r")
 
 for line in myTextImport:
 
-	myText = myTextImport.readline().replace("\n", "") #replace line breals by space
+	print(line + " converting...")
+
+
+	myText = line.replace("\n", "") #replace line breals by space
 
 	# Create output
 
@@ -26,7 +29,3 @@ for line in myTextImport:
 
 # Close the file
 myTextImport.close()
-
-
-
-
