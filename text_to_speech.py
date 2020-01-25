@@ -10,7 +10,7 @@ language = "en"
 
 # import your word from a text file
 
-myTextImport = open("memrise_words.txt", "r")
+myTextImport = open("memrise_words.txt", "r", encoding="utf8")
 
 for line in myTextImport:
 
